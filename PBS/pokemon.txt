@@ -234,6 +234,31 @@ Category = Marisco
 Pokedex = Lanza chorros de agua por los tubos del caparazón con gran precisión. Tiene tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros.
 Generation = 1
 #-------------------------------
+[WORMMIE]
+Name = Wormmie
+Types = BUG
+BaseStats = 45,30,35,45,20,20
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 39
+EVs = HP,1
+CatchRate = 255
+Happiness = 50
+Abilities = SHIELDDUST
+HiddenAbilities = RUNAWAY
+Moves = 1,TACKLE,1,STRINGSHOT,9,BUGBITE
+TutorMoves = ELECTROWEB
+EggGroups = Bug
+HatchSteps = 3840
+Height = 0.3
+Weight = 2.9
+Color = Green
+Shape = Insectoid
+Habitat = Forest
+Category = Gusano
+Pokedex = Tiene un apetito voraz. Es capaz de devorar hojas que superan su tamaño en un abrir y cerrar de ojos. Libera un hedor terrible por las antenas.
+Generation = 1
+#-------------------------------
 [CATERPIE]
 Name = Caterpie
 Types = BUG
