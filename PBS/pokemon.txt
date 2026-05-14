@@ -234,6 +234,32 @@ Category = Marisco
 Pokedex = Lanza chorros de agua por los tubos del caparazón con gran precisión. Tiene tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros.
 Generation = 1
 #-------------------------------
+[TOXYN]
+Name = Toxyn
+Types = GRASS,POISON
+BaseStats = 45,49,49,45,65,65
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPECIAL_ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = OVERGROW
+HiddenAbilities = CHLOROPHYLL
+Moves = 1,TACKLE,1,GROWL,3,VINEWHIP,6,GROWTH,9,LEECHSEED,12,RAZORLEAF,15,POISONPOWDER,15,SLEEPPOWDER,18,SEEDBOMB,21,TAKEDOWN,24,SWEETSCENT,27,SYNTHESIS,30,WORRYSEED,33,DOUBLEEDGE,36,SOLARBEAM
+TutorMoves = AMNESIA,ATTRACT,BODYSLAM,BULLETSEED,CHARM,CUT,DOUBLETEAM,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLASH,GIGADRAIN,GRASSKNOT,GRASSPLEDGE,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HIDDENPOWER,LEAFSTORM,LIGHTSCREEN,MAGICALLEAF,POWERWHIP,PROTECT,REST,ROCKSMASH,ROUND,SAFEGUARD,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,TOXIC,VENOSHOCK,WEATHERBALL,WORKUP
+EggMoves = AMNESIA,CHARM,CURSE,GRASSYTERRAIN,INGRAIN,LEAFSTORM,MAGICALLEAF,NATUREPOWER,PETALDANCE,POWERWHIP,SKULLBASH,SLUDGE
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Semilla
+Pokedex = A Toxyn es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol.
+Generation = 1
+#-------------------------------
 [WORMMIE]
 Name = Wormmie
 Types = BUG
@@ -257,6 +283,31 @@ Shape = Insectoid
 Habitat = Forest
 Category = Gusano
 Pokedex = Tiene un apetito voraz. Es capaz de devorar hojas que superan su tamaño en un abrir y cerrar de ojos. Libera un hedor terrible por las antenas.
+Generation = 1
+Evolutions= CASKKET,Level,5
+#-------------------------------
+[CASKKET]
+Name = Caskket
+Types = BUG
+BaseStats = 50,20,55,30,25,25
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 72
+EVs = DEFENSE,2
+CatchRate = 120
+Happiness = 50
+Abilities = SHEDSKIN
+Moves = 0,HARDEN,1,HARDEN
+TutorMoves = ELECTROWEB,IRONDEFENSE
+EggGroups = Bug
+HatchSteps = 3840
+Height = 0.7
+Weight = 9.9
+Color = Brown
+Shape = Serpentine
+Habitat = Forest
+Category = Capullo
+Pokedex = La capa que le recubre el cuerpo es dura como una plancha de hierro. METAPOD apenas se mueve para que las vísceras evolucionen dentro de su coraza.
 Generation = 1
 #-------------------------------
 [CATERPIE]
