@@ -1,5 +1,28 @@
 ﻿# Consulta la documentación en la wiki para aprender a editar este archivo.
 #-------------------------------
+[BAKKAR]
+Name = Bakkar
+Types = DARK
+BaseStats = 70,90,90,125,135,90
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 300
+EVs = SPECIAL_ATTACK,2,SPEED,1
+CatchRate = 3
+Happiness = 0
+Abilities = BADDREAMS
+Moves = 1,CONFUSERAY,1,DISABLE,11,QUICKATTACK,20,HYPNOSIS,29,SUCKERPUNCH,38,FOULPLAY,47,DOUBLETEAM,57,HAZE,66,DARKVOID,75,NASTYPLOT,84,DREAMEATER,93,DARKPULSE
+TutorMoves = AERIALACE,BLIZZARD,BRICKBREAK,CALMMIND,CHARGEBEAM,CONFIDE,CUT,DARKPULSE,DOUBLETEAM,DRAINPUNCH,DREAMEATER,EMBARGO,ENDURE,FACADE,FLASH,FLING,FOCUSBLAST,FOCUSPUNCH,FOULPLAY,FRUSTRATION,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,ICEBEAM,ICYWIND,KNOCKOFF,LASTRESORT,NASTYPLOT,PAYBACK,POISONJAB,POWERUPPUNCH,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,RETURN,ROCKCLIMB,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SHADOWBALL,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNARL,SNATCH,SNORE,SPITE,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,TAUNT,THIEF,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERWAVE,TORMENT,TRICK,WILLOWISP,WONDERROOM,XSCISSOR
+EggGroups = Undiscovered
+HatchSteps = 30720
+Height = 1.5
+Weight = 50.5
+Color = Black
+Shape = Bipedal
+Category = Oscuridad
+Pokedex = Puede adormecer a la gente y hacerle soñar. Esta activo en las noches de luna nueva.
+Generation = 1
+#-------------------------------
 [BULBASAUR]
 Name = Bulbasaur
 Types = GRASS,POISON
@@ -79,7 +102,7 @@ Pokedex = Según parece, la flor de Venusaur adquiere unos colores muy vivos con
 Generation = 1
 #-------------------------------
 [CHARMANDER]
-Name = Charmander
+Name = Forax
 Types = FIRE
 BaseStats = 39,52,43,65,60,50
 GenderRatio = FemaleOneEighth
@@ -100,7 +123,7 @@ Weight = 8.5
 Color = Red
 Shape = BipedalTail
 Habitat = Mountain
-Category = Lagartija
+Category = Serpiente
 Pokedex = La llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado.
 Generation = 1
 Evolutions = CHARMELEON,Level,16
@@ -234,6 +257,33 @@ Category = Marisco
 Pokedex = Lanza chorros de agua por los tubos del caparazón con gran precisión. Tiene tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros.
 Generation = 1
 #-------------------------------
+[SWINTTIE]
+Name = Swinttie
+Types = WATER
+BaseStats = 44,48,65,43,50,64
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 63
+EVs = DEFENSE,1
+CatchRate = 45
+Happiness = 50
+Abilities = TORRENT
+HiddenAbilities = RAINDISH
+Moves = 1,TACKLE,1,TAILWHIP,3,WATERGUN,6,WITHDRAW,9,RAPIDSPIN,12,BITE,15,WATERPULSE,18,PROTECT,21,RAINDANCE,24,AQUATAIL,27,SHELLSMASH,30,IRONDEFENSE,33,HYDROPUMP,36,SKULLBASH
+TutorMoves = ATTRACT,AURASPHERE,BLIZZARD,BODYSLAM,BRICKBREAK,BRINE,DIG,DIVE,DOUBLETEAM,DRAGONPULSE,ENDURE,FACADE,FALSESWIPE,FLING,FLIPTURN,FOCUSPUNCH,GYROBALL,HAIL,HELPINGHAND,HIDDENPOWER,HYDROPUMP,ICEBEAM,ICEPUNCH,ICYWIND,IRONDEFENSE,IRONTAIL,MEGAKICK,MEGAPUNCH,MUDDYWATER,PROTECT,RAINDANCE,REST,ROCKSMASH,ROCKTOMB,ROUND,SCALD,SLEEPTALK,SNORE,STRENGTH,SUBSTITUTE,SURF,SWAGGER,WATERFALL,WATERPLEDGE,WATERPULSE,WEATHERBALL,WHIRLPOOL,WORKUP,ZENHEADBUTT
+EggMoves = AQUAJET,AQUARING,AURASPHERE,FAKEOUT,FLAIL,HAZE,LIFEDEW,MIRRORCOAT,MIST,MUDDYWATER,WATERSPOUT,YAWN
+EggGroups = Monster,Water1
+HatchSteps = 5120
+Height = 0.5
+Weight = 9.0
+Color = Blue
+Shape = BipedalTail
+Habitat = WatersEdge
+Category = Tortuguita
+Pokedex = El caparazón de Squirtle no sólo lo protege; su forma redondeada y sus hendiduras reducen su resistencia al agua y le permiten nadar más rápido.
+Generation = 1
+Evolutions = WARTORTLE,Level,16
+#-------------------------------
 [TOXYN]
 Name = Toxyn
 Types = GRASS,POISON
@@ -309,6 +359,33 @@ Habitat = Forest
 Category = Capullo
 Pokedex = La capa que le recubre el cuerpo es dura como una plancha de hierro. METAPOD apenas se mueve para que las vísceras evolucionen dentro de su coraza.
 Generation = 1
+Evolutions= SHOGUNNYE,Level,7
+#-------------------------------
+[SHOGUNNYE]
+Name = Shogunnye
+Types = BUG,FLYING
+BaseStats = 60,45,50,70,90,80
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 198
+EVs = SPECIAL_ATTACK,2,SPECIAL_DEFENSE,1
+CatchRate = 45
+Happiness = 50
+Abilities = COMPOUNDEYES
+HiddenAbilities = TINTEDLENS
+Moves = 0,GUST,1,GUST,1,HARDEN,1,TACKLE,1,STRINGSHOT,1,BUGBITE,4,SUPERSONIC,8,CONFUSION,12,POISONPOWDER,12,STUNSPORE,12,SLEEPPOWDER,16,PSYBEAM,20,WHIRLWIND,24,AIRSLASH,28,SAFEGUARD,32,BUGBUZZ,36,TAILWIND,40,RAGEPOWDER,44,QUIVERDANCE
+TutorMoves = ACROBATICS,AERIALACE,AIRSLASH,ATTRACT,BATONPASS,BUGBUZZ,DEFOG,DOUBLETEAM,DRAININGKISS,DREAMEATER,DUALWINGBEAT,ELECTROWEB,ENDURE,ENERGYBALL,FACADE,FLASH,GIGADRAIN,GIGAIMPACT,HIDDENPOWER,HURRICANE,HYPERBEAM,IRONDEFENSE,POLLENPUFF,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,ROOST,ROUND,SAFEGUARD,SHADOWBALL,SKILLSWAP,SLEEPTALK,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,UTURN,VENOSHOCK
+EggGroups = Bug
+HatchSteps = 3840
+Height = 1.1
+Weight = 32.0
+Color = White
+Shape = MultiWinged
+Habitat = Forest
+Category = Mariposa
+Pokedex = Butterfree tiene una habilidad especial para encontrar rico néctar en las flores. Localiza, extrae y transporta polen de flores que están a 10 km de distancia.
+Generation = 1
+WildItemUncommon = SILVERPOWDER
 #-------------------------------
 [CATERPIE]
 Name = Caterpie
