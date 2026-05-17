@@ -1,4 +1,4 @@
-# Consulta la documentación en la wiki para aprender a editar este archivo.
+﻿# Consulta la documentación en la wiki para aprender a editar este archivo.
 #-------------------------------
 [CAMPER,Liam]
 LoseText = ¡Buen combate!
@@ -37,8 +37,8 @@ Pokemon = ELECTABUZZ,20
 #-------------------------------
 [YOUNGSTER,Ben]
 LoseText = ¡No! ¡Eh perdido!
-Pokemon = RATTATA,11
-Pokemon = EKANS,11
+Pokemon = CASKKET,7
+Pokemon = CHARMANDER,4
 #-------------------------------
 [CAMPER,Jeff]
 LoseText = ¡Buen combate!
@@ -59,8 +59,8 @@ LoseText = Derrotado! ¡Oh, no!
 Pokemon = PERSIAN,32
 #-------------------------------
 [HIKER,Ford]
-LoseText = ¡Eres mejor que yo!
-Pokemon = MACHOP,19
+LoseText = ¡VALE VALE Todo tuyo!
+Pokemon = SHOGUNNYE,7
 #-------------------------------
 [FISHERMAN,Andrew]
 LoseText = ...
@@ -108,11 +108,15 @@ Pokemon = PIDGEOTTO,17
 Pokemon = RATTATA,15
 Pokemon = SQUIRTLE,18
 #-------------------------------
-[CHAMPION,Blue]
-LoseText = ¡Buen combate!
-Pokemon = VENUSAUR,63
-    Item = SITRUSBERRY
-Pokemon = CHARIZARD,63
-    Item = SITRUSBERRY
-Pokemon = BLASTOISE,63
-    Item = SITRUSBERRY
+[CHAMPION,Feri]
+LoseText = ¡Que gran combate!
+Pokemon = BAKKAR,14
+#-------------------------------
+[YOUNGSTER,Yorch]
+LoseText = Vaya, me has vencido, toma mis dineros
+Pokemon = CHARMANDER,4
+Pokemon = SWINTTIE,6
+#-------------------------------
+[HIKER,Paco]
+LoseText = ¡Será posible!
+Pokemon = SHOGUNNYE,8
