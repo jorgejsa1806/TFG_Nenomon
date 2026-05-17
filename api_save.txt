@@ -1,0 +1,1 @@
+{:username=>"Sergio", :nenomons=>[{:nombre=>"Toxyn", :tipo=>"GRASS", :hp=>20, :ataque=>10, :defensa=>10, :nivel=>5}]}
