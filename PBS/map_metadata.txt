@@ -55,7 +55,7 @@ Environment = Rock
 Flags = DisableBoxLink
 #-------------------------------
 [011]   # Pokémon Institute
-Name = Cedolan City
+Name = Instituto Nenomon
 MapPosition = 0,14,10
 #-------------------------------
 [012]   # Cedolan City Condo
@@ -95,10 +95,10 @@ Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
 [021]   # Route 2
-Name = Route 2
+Name = Primera Ruta
 Outdoor = true
 ShowArea = true
-Weather = Rain,100
+Weather = Rain,50
 MapPosition = 0,14,8
 BattleBack = field
 MapSize = 1,11

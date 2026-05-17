@@ -2702,7 +2702,7 @@ Price = 200
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = Medicina en spray que cura heridas y restaura 20 PS de un Pokémon.
+Description = Medicina en spray que cura heridas y restaura 20 PS de un Nenomon.
 #-------------------------------
 [SUPERPOTION]
 Name = Superpoción
@@ -2712,7 +2712,7 @@ Price = 700
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = Medicina en spray que cura heridas y restaura 50 PS de un Pokémon.
+Description = Medicina en spray que cura heridas y restaura 50 PS de un Nenomon.
 #-------------------------------
 [HYPERPOTION]
 Name = Hiperpoción
@@ -2722,7 +2722,7 @@ Price = 1500
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = Medicina en spray que cura heridas y restaura 200 PS de un Pokémon.
+Description = Medicina en spray que cura heridas y restaura 200 PS de un Nenomon.
 #-------------------------------
 [MAXPOTION]
 Name = Poción Máxima
@@ -2732,7 +2732,7 @@ Price = 2500
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = Medicina en spray que cura heridas y restaura todos los PS de un Pokémon.
+Description = Medicina en spray que cura heridas y restaura todos los PS de un Nenomon.
 #-------------------------------
 [FULLRESTORE]
 Name = Restaurar Todo
@@ -3450,40 +3450,40 @@ Flags = Fling_30
 Description = Caramelo energético que sube a un Pokémon de nivel.
 #-------------------------------
 [MASTERBALL]
-Name = Master Ball
-NamePlural = Master Balls
+Name = La Bola del Nen Suprema
+NamePlural = Las Bolas del Nen Supremas
 Pocket = 3
 Price = 0
 BattleUse = OnFoe
 Flags = PokeBall
-Description = La Poké Ball definitiva. Atrapa a cualquier Pokémon salvaje y no falla nunca.
+Description = La NenoBall definitiva. Atrapa a cualquier Nenomon salvaje y no falla nunca.
 #-------------------------------
 [ULTRABALL]
-Name = Ultra Ball
-NamePlural = Ultra Balls
+Name = Ultra Neno Ball
+NamePlural = Ultra Neno Balls
 Pocket = 3
 Price = 800
 BattleUse = OnFoe
 Flags = PokeBall
-Description = Poké Ball de rendimiento superior. Tiene más índice de éxito que la Superball.
+Description = NenoBall de rendimiento superior. Tiene más índice de éxito que la Super Neno Ball.
 #-------------------------------
 [GREATBALL]
-Name = Super Ball
-NamePlural = Super Balls
+Name = Super Neno Ball
+NamePlural = Super Neno Balls
 Pocket = 3
 Price = 600
 BattleUse = OnFoe
 Flags = PokeBall
-Description = Poké Ball de alto rendimiento. Tiene un índice de éxito superior al de la Poké Ball.
+Description = NenoBall de alto rendimiento. Tiene un índice de éxito superior al de la NenoBall.
 #-------------------------------
 [POKEBALL]
-Name = Poké Ball
-NamePlural = Poké Balls
+Name = NenoBall
+NamePlural = NenoBalls
 Pocket = 3
 Price = 200
 BattleUse = OnFoe
 Flags = PokeBall
-Description = Dispositivo con diseño capsular que atrapa Pokémon salvajes. Se lanza como una bola contra el blanco.
+Description = Dispositivo con diseño capsular que atrapa Nenomon salvajes. Se lanza como una bola contra el blanco.
 #-------------------------------
 [SAFARIBALL]
 Name = Safari Ball
