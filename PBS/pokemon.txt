@@ -23,6 +23,32 @@ Category = Oscuridad
 Pokedex = Puede adormecer a la gente y hacerle soñar. Esta activo en las noches de luna nueva.
 Generation = 1
 #-------------------------------
+[LUMINEE]
+Name = Luminee
+Types = FAIRY,FLYING
+BaseStats = 78,65,68,75,112,154
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 276
+EVs = SPECIAL_DEFENSE,3
+CatchRate = 45
+Happiness = 50
+Abilities = FLOWERVEIL
+HiddenAbilities = SYMBIOSIS
+Moves = 1,DISARMINGVOICE,1,LUCKYCHANT,1,WISH,1,MAGICALLEAF,1,FLOWERSHIELD,1,GRASSKNOT,1,GRASSYTERRAIN,1,PETALBLIZZARD,1,MISTYTERRAIN,1,MOONBLAST,1,PETALDANCE,1,AROMATHERAPY
+TutorMoves = AFTERYOU,ALLYSWITCH,ATTRACT,CALMMIND,CONFIDE,COVET,DAZZLINGGLEAM,DEFOG,DOUBLETEAM,ECHOEDVOICE,ENDEAVOR,ENERGYBALL,FACADE,FRUSTRATION,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HEALBELL,HELPINGHAND,HIDDENPOWER,HYPERBEAM,LIGHTSCREEN,MAGICCOAT,NATUREPOWER,PROTECT,PSYCHIC,RAINDANCE,REST,RETURN,ROUND,SAFEGUARD,SEEDBOMB,SLEEPTALK,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,SYNTHESIS,TOXIC,WORRYSEED
+EggGroups = Fairy
+HatchSteps = 5120
+Height = 1.1
+Weight = 10.0
+Color = White
+Shape = HeadArms
+Category = Jardín
+Pokedex = Habita en preciosos jardines floridos. Absorbe la energía que emiten las plantas y la convierte en su fuente de poder.
+FormName = Red Flower
+Generation = 1
+Flags = InheritFormFromMother
+#-------------------------------
 [BULBASAUR]
 Name = Bulbasaur
 Types = GRASS,POISON
@@ -334,7 +360,7 @@ Habitat = Forest
 Category = Gusano
 Pokedex = Tiene un apetito voraz. Es capaz de devorar hojas que superan su tamaño en un abrir y cerrar de ojos. Libera un hedor terrible por las antenas.
 Generation = 1
-Evolutions= CASKKET,Level,5
+Evolutions = CASKKET,Level,5
 #-------------------------------
 [CASKKET]
 Name = Caskket
@@ -359,7 +385,7 @@ Habitat = Forest
 Category = Capullo
 Pokedex = La capa que le recubre el cuerpo es dura como una plancha de hierro. METAPOD apenas se mueve para que las vísceras evolucionen dentro de su coraza.
 Generation = 1
-Evolutions= SHOGUNNYE,Level,7
+Evolutions = SHOGUNNYE,Level,7
 #-------------------------------
 [SHOGUNNYE]
 Name = Shogunnye
